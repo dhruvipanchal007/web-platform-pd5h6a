@@ -1,0 +1,23 @@
+.about-content-1 {
+  display: flex;
+}
+.about-content-text {
+  padding: 0 30px;
+}
+.about-content-heading {
+  font-size: 19px;
+  color: #121212;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+.about-content-para {
+  font-size: 14px;
+  font-weight: 300;
+  color: #5a5a5a;
+  line-height: 25px;
+}
+.btn {
+  margin-top: 25px;
+}
