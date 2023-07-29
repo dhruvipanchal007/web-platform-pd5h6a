@@ -8,7 +8,7 @@
 .contact-text-para {
   font-size: 14px;
   font-weight: 300;
-  color: #5a5a5a;
+  color: var(--para-text-color);
   line-height: 25px;
 }
 .contact-text-para-1 {
@@ -18,11 +18,11 @@
 }
 .contact-form {
   max-width: 800px;
+  padding: 30px 20px;
 }
 .form-info {
-  max-width: 100%;
+  width: 340px;
   margin-bottom: 20px;
-  padding-left: 15px;
   height: 40px;
   display: inline-block;
   line-height: 40px;
@@ -31,4 +31,34 @@
   background-color: #f4f4f4;
   border: none;
   box-shadow: none;
+  padding-left: 15px;
+  margin-right: 10px;
+}
+.form-message{
+  margin-bottom: 20px;
+  display: inline-block;
+  font-size: 13px;
+  color: #aaa;
+  background-color: #f4f4f4;
+  border: none;
+  box-shadow: none;
+  padding-left: 15px;
+  width: 700px;
+  line-height: 20px;
+}
+.social-icons{
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.bi{
+  margin-right: 10px;
+  color: #fff;
+  background-color: #cdcdcd;
+  font-size: 15px;
+  border-radius: 50%;
+  line-height: 34px;
+  padding: 15px;
+}
+.btn{
+  margin-top: 10px;
 }

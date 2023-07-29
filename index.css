@@ -1,3 +1,4 @@
+
 .p-60{
   padding: 60px 0;
 }
@@ -5,7 +6,7 @@
 .welcome-card-heading {
   font-size: 19px;
   text-transform: uppercase;
-  color: #121212;
+  color: var(--card-heading-color);
   letter-spacing: 1px;
   margin-top: 0;
   margin-bottom: 30px;
@@ -13,7 +14,7 @@
 }
 .welcome-card-para {
   font-size: 13px;
-  color: #5a5a5a;
+  color: var(--paratext-color);
   font-weight: 300;
   line-height: 25px;
   margin: 0 120px;
