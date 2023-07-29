@@ -5,7 +5,7 @@
   padding: 0 30px;
 }
 .about-content-heading {
-  font-size: 19px;
+  font-size: var(--card-heading-font-size);
   color: var(--card-heading-color);
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -13,7 +13,7 @@
   margin-bottom: 25px;
 }
 .about-content-para {
-  font-size: 14px;
+  font-size:var(--para-font-size);
   font-weight: 300;
   color: var(--paratext-color);
   line-height: 25px;

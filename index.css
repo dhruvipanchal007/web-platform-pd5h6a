@@ -4,7 +4,7 @@
 }
 
 .welcome-card-heading {
-  font-size: 19px;
+  font-size: var(--card-heading-font-size);
   text-transform: uppercase;
   color: var(--card-heading-color);
   letter-spacing: 1px;
@@ -13,7 +13,7 @@
   text-align: center;
 }
 .welcome-card-para {
-  font-size: 13px;
+  font-size: var(--para-font-size);
   color: var(--paratext-color);
   font-weight: 300;
   line-height: 25px;

@@ -6,15 +6,15 @@
   padding: 30px;
 }
 .contact-text-para {
-  font-size: 14px;
+  font-size: var(--para-font-size);
   font-weight: 300;
-  color: var(--para-text-color);
+  color: var(--paratext-color);
   line-height: 25px;
 }
 .contact-text-para-1 {
   font-weight: 500;
   font-style: italic;
-  font-size: 14px;
+  font-size: var(--para-font-size);
 }
 .contact-form {
   max-width: 800px;

@@ -5,7 +5,9 @@
   --paratext-color: #5a5a5a;
   --background-color: #ffbb05;
   --color: #fff;
-  --card-heading-color:#121212;
+  --card-heading-color: #121212;
+  --para-font-size:14px;
+  --card-heading-font-size:19px;
 }
 
 body {
