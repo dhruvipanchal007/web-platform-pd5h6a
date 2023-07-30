@@ -1,16 +1,27 @@
 * {
   box-sizing: border-box;
 }
+
 :root {
-  --paratext-color: #5a5a5a;
-  --background-color: #ffbb05;
+  --background-color-peach: #eea47f;
+  --border-top-color-peach: 15px solid #eea47f;
+  --para-text-color-royalblue: #00539c;
+  --background-color-yellow: #fee715;
+  --border-top-color-yellow: 15px solid #fee715;
+  --para-text-color-charcol: #101820;
+  --background-color-green: #ccf381;
+  --border-top-color-green: 15px solid #ccf381;
+
+  --para-text-color-blue: #4831d4;
+  --para-text-color-black:#545454;
+
+  --paratext-color: var(--para-text-color-black);
+  --background-color: var(--background-color-green);
   --color: #fff;
   --card-heading-color: #121212;
-  --para-font-size:14px;
-  --card-heading-font-size:19px;
-  --para-text-color-black:black;
-  --background-color-pink:rgb(190, 97, 113);
-  --para-text-color-blue:rgb(22, 22, 75);
+  --para-font-size: 14px;
+  --card-heading-font-size: 19px;
+  --border-top-color: var(--border-top-color-green);
 }
 
 body {
@@ -36,12 +47,12 @@ body {
   display: inline-block;
   margin: 60px 30px;
 }
-.icon{
+.icon {
   width: 80px;
   height: 80px;
   line-height: 80px;
   border-radius: 50%;
-  background-color: var(--background-color-pink);
+  background-color: var(--background-color);
   text-align: center;
   padding: 10px;
 }
@@ -57,7 +68,7 @@ body {
   margin-top: 15px;
 }
 .icon-text-active {
-  color: var(--background-color-pink);
+  color: var(--background-color);
 }
 .heading {
   margin-top: 30px;
@@ -72,7 +83,7 @@ body {
 .main-para {
   font-size: 16px;
   text-transform: uppercase;
-  color: var(--background-color-pink);
+  color: var(--background-color);
   font-weight: 300;
   letter-spacing: 0.5px;
   margin: 0;
@@ -84,23 +95,23 @@ body {
   margin-right: auto;
   background-color: #fff;
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
-  border-top: 15px solid rgb(190, 97, 113);
+  border-top: var(--border-top-color);
   margin-top: -80px;
   margin-bottom: 100px;
 }
 .primary-btn {
   text-align: center;
   text-decoration: none;
-  background-color: var(--background-color-pink);
-  color: #fff;
+  background-color: var(--background-color);
+  color: #121212;
   font-size: 13px;
   padding: 12px 18px;
   border-radius: 3px;
   border: 1px solid transparent;
 }
 .footer {
-  background-color: var(--background-color-pink);
-  color: #fff;
+  background-color: var(--background-color);
+  color: #121212;
   padding: 25px 0;
   font-size: 13px;
   text-align: center;
