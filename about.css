@@ -15,7 +15,7 @@
 .about-content-para {
   font-size:var(--para-font-size);
   font-weight: 300;
-  color: var(--paratext-color);
+  color: var(--paratext-color-blue);
   line-height: 25px;
 }
 .btn {

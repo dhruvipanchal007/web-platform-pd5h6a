@@ -8,7 +8,7 @@
 .contact-text-para {
   font-size: var(--para-font-size);
   font-weight: 300;
-  color: var(--paratext-color);
+  color: var(--paratext-color-blue);
   line-height: 25px;
 }
 .contact-text-para-1 {
@@ -53,7 +53,7 @@
 .bi{
   margin-right: 10px;
   color: #fff;
-  background-color: #cdcdcd;
+  background-color: #645e5e;
   font-size: 15px;
   border-radius: 50%;
   line-height: 34px;

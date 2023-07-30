@@ -14,7 +14,7 @@
 }
 .welcome-card-para {
   font-size: var(--para-font-size);
-  color: var(--paratext-color);
+  color: var(--paratext-color-blue);
   font-weight: 300;
   line-height: 25px;
   margin: 0 120px;
