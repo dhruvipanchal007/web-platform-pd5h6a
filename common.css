@@ -13,7 +13,7 @@
   --border-top-color-green: 15px solid #ccf381;
 
   --para-text-color-blue: #4831d4;
-  --para-text-color-black:#545454;
+  --para-text-color-black: #545454;
 
   --paratext-color: var(--para-text-color-black);
   --background-color: var(--background-color-green);
@@ -42,22 +42,25 @@ body {
   flex-direction: row;
   justify-content: center;
   margin-bottom: 100px;
+  margin-top: 60px;
 }
 .navbar {
   list-style: none;
-  display: inline-block;
-  margin: 60px 30px;
+  margin: 0px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
-.icon {
-  width: 80px;
-  height: 80px;
-  line-height: 80px;
+
+.bi {
   border-radius: 50%;
   background-color: var(--background-color);
   text-align: center;
-  padding: 10px;
+  padding: 10px 20px;
+  color: #121212;
+  font-size: 40px;
 }
- a {
+a {
   text-decoration: none;
 }
 .icon-text {
@@ -66,7 +69,7 @@ body {
   text-transform: uppercase;
   text-align: center;
   font-weight: 400;
-  margin-top: 15px;
+  /* margin-top: 15px; */
 }
 .icon-text-active {
   color: var(--background-color);
